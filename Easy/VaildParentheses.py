@@ -1,29 +1,25 @@
+# 23-05-23
 def isValid(s: str) -> bool:
-    def_count = 0
-    parentheses_types = {
-        "(": 0,
-        ")": 0,
-        "{": 0,
-        "}": 0,
-        "[": 0,
-        "]": 0,
-    }
-
-    for c in s:
-        if c in "({[":
-            if parentheses_types[c] >= 0:
-                parentheses_types[c] += 1
-            else:
+    prent_stack = []
+    open_pre = ["(", "{", "["]
+    close_pre = [")", "}", "]"]
+    if len(s) == 1:
+        return False
+    for p in s:
+        if p in open_pre:
+            prent_stack.append(p)
+        if p in close_pre:
+            try:
+                temp_pre = prent_stack.pop()
+            except IndexError:
                 return False
-        else:
-            parentheses_types[c.replace(")", "(").replace("}", "{").replace("]", "[")] -= 1
-    for key in parentheses_types:
-        if parentheses_types[key] != 0:
-            return False
+            if not p.replace(")", "(").replace("}", "{").replace("]", "[") == temp_pre:
+                return False
 
+    if len(prent_stack) != 0:
+        return False
     return True
 
 
-
-s = "([)]"
+s = "){"
 print(isValid(s))

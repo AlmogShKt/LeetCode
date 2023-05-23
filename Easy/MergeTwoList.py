@@ -1,15 +1,7 @@
-# Definition for singly-linked list.
+# 23-5-23
+
 from typing import Optional
 from DataTypes import ListNode
-
-
-
-def print_list(node):
-    current = node
-    while current is not None:
-        print(current.val)
-        current = current.next
-
 
 def mergeTwoLists(list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
     merged_list = tail = ListNode()
@@ -31,26 +23,3 @@ def mergeTwoLists(list1: Optional[ListNode], list2: Optional[ListNode]) -> Optio
         tail.next = temp_list2
 
     return merged_list.next
-
-
-# Create a list with values 1, 2, 3
-node1 = ListNode(1)
-node2 = ListNode(2)
-node3 = ListNode(3)
-
-# Link the nodes together
-node1.next = node2
-node2.next = node3
-
-# Create a list with values 1, 2, 3
-node11 = ListNode(1)
-node22 = ListNode(5)
-node33 = ListNode(6)
-
-# Link the nodes together
-node11.next = node22
-node22.next = node33
-
-# Resulting list: 1 -> 2 -> 3
-
-print_list(mergeTwoLists(node11, node1))
