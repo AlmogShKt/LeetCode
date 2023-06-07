@@ -1,7 +1,7 @@
 # 23-5-23
 
 from typing import Optional
-from DataTypes import ListNode
+from DataStructures import ListNode
 
 def mergeTwoLists(list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
     merged_list = tail = ListNode()

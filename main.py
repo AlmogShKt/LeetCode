@@ -1,6 +1,6 @@
 # Definition for singly-linked list.
 from typing import Optional
-from DataTypes import ListNode
+from DataStructures import ListNode
 
 
 
