@@ -1,5 +1,4 @@
-# 242. ValidAnagram
-
+# 242. Valid Anagram
 
 def isAnagram(s: str, t: str) -> bool:
     s_list = list(s)
@@ -23,9 +22,3 @@ def isAnagram2(s: str, t: str) -> bool:
         if countT.get(key, 0) != countS[key]:
             return False
     return True
-
-
-s = "ALMOG"
-t = "ALMOG"
-
-print(isAnagram2(s, t))
