@@ -1,3 +1,4 @@
+# 36
 import collections
 
 
@@ -20,8 +21,3 @@ def isValidSudoku(self, board) -> bool:
                 squares[(r // 3, c // 3)].add(board_value)
         return True
 
-
-cols = collections.defaultdict(set)
-cols[2].add(2)
-cols[2].add(5)
-print(cols)
