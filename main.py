@@ -1,27 +1,14 @@
-import collections
+from DataStructures import *
 
 
-def isValidSudoku(self, board) -> bool:
-        cols = collections.defaultdict(set)
-        rows = collections.defaultdict(set)
-        squares = collections.defaultdict(set)
+class Solution:
+    def mergeTrees(self, root1: TreeNode, root2: TreeNode) -> TreeNode:
+        if not root1 and not root2:
+            return None
+        v1 = root1.val if root1 else 0
+        v2 = root2.val if root2 else 0
+        new_root = TreeNode(v1 + v2)
 
-        for r in range(9):
-            for c in range(9):
-                board_value = board[r][c]
-                if board_value == ".":
-                    continue
-                if (board_value in rows[r] or
-                        board_value in cols[c] or
-                        board_value in squares[(r // 3, c // 3)]):
-                    return False
-                rows[r].add(board_value)
-                cols[c].add(board_value)
-                squares[(r // 3, c // 3)].add(board_value)
-        return True
-
-
-cols = collections.defaultdict(set)
-cols[2].add(2)
-cols[2].add(5)
-print(cols)
+        new_root.left = self.mergeTrees(root1.left if root1 else None, root2.left if root2 else None)
+        new_root.right = self.mergeTrees(root1.right if root1 else None, root2.right if root2 else None)
+        return new_root
