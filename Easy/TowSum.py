@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/two-sum/description/
 
-#1 - 17-5-23
+# 1 - 17-5-23
 
 def twoSum(nums, target):
     n = len(nums)
@@ -18,6 +18,7 @@ def twoSum(nums, target):
     else:
         return []
 
-nums = [2,7,11,15]
+
+nums = [2, 7, 11, 15]
 target = 9
-print(twoSum(nums,target))
+print(twoSum(nums, target))

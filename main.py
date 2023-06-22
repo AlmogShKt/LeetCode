@@ -1,14 +1,17 @@
+from typing import Optional
+
 from DataStructures import *
 
 
 class Solution:
-    def mergeTrees(self, root1: TreeNode, root2: TreeNode) -> TreeNode:
-        if not root1 and not root2:
-            return None
-        v1 = root1.val if root1 else 0
-        v2 = root2.val if root2 else 0
-        new_root = TreeNode(v1 + v2)
+    def rotateRight(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+        tempNode = head
+        for i in range(k):
 
-        new_root.left = self.mergeTrees(root1.left if root1 else None, root2.left if root2 else None)
-        new_root.right = self.mergeTrees(root1.right if root1 else None, root2.right if root2 else None)
-        return new_root
+            while tempNode.next.next:
+                tempNode = tempNode.next
+
+            tempNode.next.next = head
+            head = tempNode.next
+            tempNode.next = None
+        return head
