@@ -5,18 +5,18 @@ ___
 ## Easy:
 
 [x]InvertTree.py  
-[x]LinknedLisyCycle.py 
-[x]LongeerstCommonPrefix.py 
-[x]MaxDepthOfBinaryTre.py 
-[x]MeregeTrees.py 
-[x]MergeTwoList.py 
-[x]MinimumAbsoluteDifferenceinBST.py  
-[x]PalindromeNumber.py  
+[x]LinknedLisyCycle.py  
+[x]LongeerstCommonPrefix.py  
+[x]MaxDepthOfBinaryTre.py  
+[x]MeregeTrees.py  
+[x]MergeTwoList.py  
+[x]MinimumAbsoluteDifferenceinBST.py   
+[x]PalindromeNumber.py   
 [x]RemoveDuplicates.py  
-[x]RomanToInteget.py 
-[x]TowSum.py   
-[x]VaildParentheses.py  
-[x]ValidAnagram.py  
+[x]RomanToInteget.py  
+[x]TowSum.py    
+[x]VaildParentheses.py   
+[x]ValidAnagram.py   
 
 ## Medium:
 [ ] Longest Substring Without Repeating Characters   
