@@ -3,16 +3,20 @@ ___
 # TODO:
 
 ## Easy:
-[x] Two Sum  
-[ ] Maximum Subarray   
-[x] Valid Parentheses  
-[ ] Best Time to Buy and Sell Stock  
-[ ] House Robber  
-[ ] Reverse Linked List  
-[ ] Single Number  
-[x] Merge Two Sorted Lists  
-[ ] Climbing Stairs  
-[ ] Symmetric Tree   
+
+[x]InvertTree.py
+[x]LinknedLisyCycle.py
+[x]LongeerstCommonPrefix.py
+[x]MaxDepthOfBinaryTre.py
+[x]MeregeTrees.py
+[x]MergeTwoList.py
+[x]MinimumAbsoluteDifferenceinBST.py
+[x]PalindromeNumber.py
+[x]RemoveDuplicates.py
+[x]RomanToInteget.py
+[x]TowSum.py
+[x]VaildParentheses.py
+[x]ValidAnagram.py
 
 ## Medium:
 [ ] Longest Substring Without Repeating Characters   
@@ -25,3 +29,13 @@ ___
 [ ] Merge Intervals  
 [ ] Unique Paths  
 [ ] Word Search
+
+
+estTimeToSellStocks.py
+
+BinaryTreeInorderTraversal.py
+
+
+ClimbingStairs.py
+
+FirstUniqueCharacterinaString.py
