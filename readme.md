@@ -4,31 +4,31 @@ ___
 
 ## Easy:
 
-[x]InvertTree.py  
-[x]LinknedLisyCycle.py  
-[x]LongeerstCommonPrefix.py  
-[x]MaxDepthOfBinaryTre.py  
-[x]MeregeTrees.py  
-[x]MergeTwoList.py  
-[x]MinimumAbsoluteDifferenceinBST.py   
-[x]PalindromeNumber.py   
-[x]RemoveDuplicates.py  
-[x]RomanToInteget.py  
-[x]TowSum.py    
-[x]VaildParentheses.py   
-[x]ValidAnagram.py   
+[✓]InvertTree.py  
+[✓]LinknedLisyCycle.py  
+[✓]LongeerstCommonPrefix.py  
+[✓]MaxDepthOfBinaryTre.py  
+[✓]MeregeTrees.py  
+[✓]MergeTwoList.py  
+[✓]MinimumAbsoluteDifferenceinBST.py   
+[✓]PalindromeNumber.py   
+[✓]RemoveDuplicates.py  
+[✓]RomanToInteget.py  
+[✓]TowSum.py    
+[✓]VaildParentheses.py   
+[✓]ValidAnagram.py   
 
 ## Medium:
-[x]CharcterReplament.py  
-[x]CourseSchedule2.py  
-[x]DailyTemperatures.py  
-[x]GroupAnaframs.py  
-[x]LowestCommonAncestorofaBinaryTree.py  
-[x]MaximumProductSubarray.py   
-[x]MaximunSubarray.py  
-[x]NumberofIslands.py  
-[x]ProductofArrayExceptSelf.py  
-[x]SearchinRotatedSortedArray.py  
-[x]SetZeroz.py  
-[x]SpiralMatrix.py  
-[x]ValidSudoku.py   
+[✓]CharcterReplament.py  
+[✓]CourseSchedule2.py  
+[✓]DailyTemperatures.py  
+[✓]GroupAnaframs.py  
+[✓]LowestCommonAncestorofaBinaryTree.py  
+[✓]MaximumProductSubarray.py   
+[✓]MaximunSubarray.py  
+[✓]NumberofIslands.py  
+[✓]ProductofArrayExceptSelf.py  
+[✓]SearchinRotatedSortedArray.py  
+[✓]SetZeroz.py  
+[✓]SpiralMatrix.py  
+[✓]ValidSudoku.py   
