@@ -19,23 +19,16 @@ ___
 [x]ValidAnagram.py   
 
 ## Medium:
-[ ] Longest Substring Without Repeating Characters   
-[ ] Container With Most Water  
-[ ] 3Sum  
-[ ] Next Permutation   
-[ ] Longest Palindromic Substring  
-[ ] Valid Sudoku  
-[ ] Search in Rotated Sorted Array  
-[ ] Merge Intervals  
-[ ] Unique Paths  
-[ ] Word Search
-
-
-estTimeToSellStocks.py
-
-BinaryTreeInorderTraversal.py
-
-
-ClimbingStairs.py
-
-FirstUniqueCharacterinaString.py
+[x]CharcterReplament.py  
+[x]CourseSchedule2.py  
+[x]DailyTemperatures.py  
+[x]GroupAnaframs.py  
+[x]LowestCommonAncestorofaBinaryTree.py  
+[x]MaximumProductSubarray.py   
+[x]MaximunSubarray.py  
+[x]NumberofIslands.py  
+[x]ProductofArrayExceptSelf.py  
+[x]SearchinRotatedSortedArray.py  
+[x]SetZeroz.py  
+[x]SpiralMatrix.py  
+[x]ValidSudoku.py   
